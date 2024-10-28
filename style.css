@@ -1,0 +1,50 @@
+body {
+  background-color: black;
+  color: white;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+h1 {
+  font-size: 2em;
+  margin-bottom: -10px;
+}
+p {
+  color: orange;
+}
+
+.emoji-container {
+  margin: 0px;
+}
+
+.emoji {
+  cursor: pointer;
+  width: 60px;
+  height: 60px;
+  margin: 10px;
+  border: 2px solid transparent;
+  transition: transform 0.2s, border 0.2s;
+}
+
+.emoji.selected {
+  border-color: orange;
+  transform: scale(1.1);
+}
+
+.ghost {
+  width: 60px;
+}
+
+.plus-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.hidden {
+  display: none;
+}
+
+#costume-image {
+  width: 120px;
+}
