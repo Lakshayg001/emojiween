@@ -1,1 +1,1 @@
-play your emoji
+play with emojis
